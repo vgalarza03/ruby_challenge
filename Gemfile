@@ -17,7 +17,7 @@ end
 group :development do
 gem 'mysql2', '>= 0.3.18', '< 0.6.0'
 end
-
+# gem 'mysql2', '>= 0.3.18', '< 0.6.0'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets

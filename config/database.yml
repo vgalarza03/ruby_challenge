@@ -49,6 +49,6 @@ test:
 #
 production:
   <<: *default
-  database: ruby_challenge_production
+  database: production
   username: ruby_challenge
   password: <%= ENV['RUBY_CHALLENGE_DATABASE_PASSWORD'] %>
