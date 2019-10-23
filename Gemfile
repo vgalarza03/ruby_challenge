@@ -10,9 +10,9 @@ end
 gem 'rails', '~> 5.0.7', '>= 5.0.7.2'
 # Use mysql as the database for Active Record
 
-group :development do
-gem 'mysql2', '>= 0.3.18', '< 0.6.0'
-end
+# group :development do
+# gem 'mysql2', '>= 0.3.18', '< 0.6.0'
+# end
 
 group :production do
   gem 'pg', '~>0.21'
