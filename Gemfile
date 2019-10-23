@@ -15,7 +15,7 @@ gem 'mysql2', '>= 0.3.18', '< 0.6.0'
 end
 
 group :production do
-  gem 'pg', '~>0.21'
+  gem 'pg'
 end
 
 # gem 'mysql2', '>= 0.3.18', '< 0.6.0'
