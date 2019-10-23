@@ -17,8 +17,10 @@ end
 group :production do
   gem 'pg'
 end
+ruby '2.5.7'
 
-# gem 'mysql2', '>= 0.3.18', '< 0.6.0'
+# To use Memcachier
+gem 'dalli'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
