@@ -13,6 +13,7 @@ gem 'rails', '~> 5.0.7', '>= 5.0.7.2'
 group :development do
 gem 'mysql2', '>= 0.3.18', '< 0.6.0'
 end
+
 group :production do
   gem 'pg', '~>0.21'
 end
